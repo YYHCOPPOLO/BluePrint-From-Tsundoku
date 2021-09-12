@@ -23,7 +23,7 @@
     --b3-theme-on-error: #fff;
 
     /* 字体 */
-    --b3-font-family: 'FOT-ModeMinALarge Std', 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans GB',
+    --b3-font-family: 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans GB',
         'Microsoft Yahei', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
         'Win10 Emoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
     --b3-font-family-code: 'Jetbrains Mono', mononoki, Consolas, 'Liberation Mono', Menlo, Courier,
@@ -77,7 +77,6 @@
     --b3-font-background2: #ffd58671;
     --b3-font-background3: #64c2f541;
     --b3-font-background4: #b8f5ce8a; */
-    /* 思考下要不要前四个背景色和卡片样式一致 */
     --b3-font-background1: var(--b3-card-error-background);
     --b3-font-background2: var(--b3-card-warning-background);
     --b3-font-background3: var(--b3-card-info-background);
@@ -180,6 +179,8 @@
 
 
 }
+
+/* background */
 .b3-typography, .protyle-wysiwyg {
 
     background-image: linear-gradient(90deg,rgba(60,10,30,.04) 3%,transparent 0),linear-gradient(1turn,rgba(60,10,30,.04) 3%,transparent 0);
@@ -248,7 +249,7 @@
     margin-bottom: 1rem;
     font-weight: bold;
     line-height: 1.4;
-    font-size: 1.6rem;
+    font-size: 1.35rem;
     cursor: text;
     color: var(--title-color);
 }
@@ -261,7 +262,7 @@
     margin-bottom: 1rem;
     font-weight: bold;
     line-height: 1.4;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     cursor: text;
     color: var(--title-color);
 }
@@ -274,7 +275,7 @@
     margin-bottom: 1rem;
     font-weight: bold;
     line-height: 1.4;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     cursor: text;
     color: var(--title-color);
 }
@@ -292,6 +293,12 @@
 .protyle-wysiwyg [data-node-id].h1,
 .b3-typography h6:hover a.anchor {
     text-decoration: none;
+}
+
+/* 标题加粗样式 */
+.protyle-wysiwyg [data-type="NodeHeading"] strong {
+    color: inherit;
+    text-shadow: 1px 1px 1px #002636b8;
 }
 
 strong {
