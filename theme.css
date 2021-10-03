@@ -300,7 +300,7 @@
 }
 
 strong {
-    /* color: var(--title-color); */
+     color: var(--title-color); 
 }
 
 mark {
