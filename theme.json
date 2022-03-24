@@ -3,5 +3,7 @@
   "author": "COPPOLO",
   "url": "https://github.com/YYHCOPPOLO/BluePrint-From-Tsundoku",
   "version": "0.2.2",
-  "modes": ["light"]
+  "modes": [
+    "light"
+  ]
 }
