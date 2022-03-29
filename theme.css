@@ -43,12 +43,12 @@
   --b3-theme-on-error: #fff;
 
   /* 字体 */
-  --b3-font-family: "Bookerly", "霞鹜文楷 屏幕阅读版", "Luxi Sans",
-    "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Win10 Emoji",
-    "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
-  --b3-font-family-code: "Fira Code", "FOT-ModeMinALarge Std", mononoki,
-    Consolas, "Liberation Mono", Menlo, Courier, monospace, "Apple Color Emoji",
+  --b3-font-family: "HarmonyOS", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB",
+    "Microsoft Yahei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Noto Color Emoji", "Win10 Emoji", "Segoe UI Symbol", "Android Emoji",
+    "EmojiSymbols";
+  --b3-font-family-code: "Jetbrains Mono", "HarmonyOS", mononoki, Consolas,
+    "Liberation Mono", Menlo, Courier, monospace, "Apple Color Emoji",
     "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
     "EmojiSymbols";
   --b3-font-family-graph: mononoki;
@@ -170,8 +170,8 @@
   /* 高亮背景 */
   --b3-protyle-inline-mark-color: var(--b3-theme-on-background);
   /* 高亮文本 */
-  --b3-protyle-inline-tag-background: #81a9a9;
-  --b3-protyle-inline-tag-color: #f8f9fa;
+  --b3-protyle-inline-tag-background: #cee9fa;
+  --b3-protyle-inline-tag-color: #0295ac;
   --b3-protyle-inline-code-color: #038296;
   --b3-protyle-inline-code-background: #e0ecf3a6;
   --b3-protyle-inline-blockref-color: #f58484;
@@ -237,7 +237,7 @@
   text-align: center;
   font-size: 1.6em !important;
   font-weight: 550;
-  color: #4dd0e1;
+  color: #3cb2c2;
   vertical-align: middle;
 }
 
@@ -248,7 +248,7 @@
   display: block;
   border-bottom: 4px solid #4dd0e1;
   position: relative;
-  color: #4dd0e1;
+  color: #3cb2c2;
   padding: 12px 32px;
   margin: 30px 0;
 }
@@ -283,7 +283,7 @@
 .b3-typography h3 {
   font-size: 1.4em !important;
   font-weight: 550;
-  color: var(--b3-font-color2) !important;
+  color: #3cb2c2 !important;
   margin: 40px 0;
   position: relative;
   padding: 4px 32px;
@@ -669,7 +669,6 @@ div[data-type="NodeBlockQueryEmbed"] .ft__secondary {
   transform: translateY(-1.5px);
   box-sizing: border-box;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   z-index: 20;
 }
 
@@ -1144,12 +1143,12 @@ div[data-subtype="t"][data-type="NodeList"] {
 
 .b3-list--files .b3-list-item:hover .b3-list-item__text,
 .b3-list--files .b3-list-item:hover .b3-list-item__graphic {
-  font-family: "FOT-ModeMinALarge Std";
+  font-family: "HarmonyOS";
   color: var(--b3-menu-highlight-color);
 }
 
 .b3-list-item__text {
-  font-family: "FOT-ModeMinALarge Std";
+  font-family: "HarmonyOS";
 }
 
 .b3-list--files .b3-list-item--focus:not(.dragover) {
